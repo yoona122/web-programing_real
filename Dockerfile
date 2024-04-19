@@ -1,4 +1,4 @@
-From python:3.11
+From python:3.10.11
 
 WORKDIR /code
 
