@@ -4,6 +4,7 @@ from sqlalchemy import create_engine, Column, Interger, String
 from squlalchmy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from pydantic import BaseModel
+from flask_sqlalchemy import SQLAlchemy
 
 import requests
 
