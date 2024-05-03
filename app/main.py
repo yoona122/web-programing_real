@@ -1,10 +1,9 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, Column, Interger, String
-from sqlalchmy.ext.declarative import declarative_base
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from pydantic import BaseModel
-from flask_sqlalchemy import SQLAlchemy
 
 import requests
 
